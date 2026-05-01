@@ -1,0 +1,43 @@
+\documentclass[14pt, a4paper]{extarticle}
+\usepackage{mospolytech_coursework}
+\usepackage{float}
+
+% Определение данных
+\newcommand{\theme}{%
+    Разработка веб-платформы маркетплейса электронной техники с системой управления заказами и аналитикой%
+}
+\newcommand{\subject}{Разработка веб-приложений}
+\newcommand{\student}{Нестерчук Антон Васильевич}
+\newcommand{\group}{241-326}
+\newcommand{\teacher}{Кружалов Алексей Сергеевич}
+
+\begin{document}
+
+% Титульный лист
+\include{title}
+
+% Задание
+\includepdf[pages=-]{task.pdf}
+
+% Содержание
+\tableofcontents
+
+% Введение
+\include{intro}
+
+% Основная часть
+\include{chapter1}
+%\include{chapter2}
+%\include{chapter3}
+
+% Заключение
+%\include{conclusion}
+
+% Список литературы
+\bibliographystyle{ugost2003} % ГОСТ 7.1-2003
+\bibliography{refs}
+
+% Приложения (при необходимости)
+% \include{appendix}
+
+\end{document}
