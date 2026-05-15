@@ -198,7 +198,8 @@
 	id & UUID & PRIMARY KEY & Уникальный идентификатор \\ \hline
 	customer\_id & UUID & FOREIGN KEY & Ссылка на покупателя \\ \hline
 	delivery\_address & TEXT & NOT NULL & Полный адрес доставки \\ \hline
-	total\_amount & DECIMAL(10,2) & NOT NULL & Итоговая сумма заказа \\ \hline
+	delivery\_date & DATE & NOT NULL & Плановая дата доставки \\ \hline
+	total\_price & DECIMAL(10,2) & NOT NULL & Итоговая стоимость заказа \\ \hline
 	created\_at & TIMESTAMP & DEFAULT NOW() & Дата и время оформления \\ \hline
 \end{longtable}
 
