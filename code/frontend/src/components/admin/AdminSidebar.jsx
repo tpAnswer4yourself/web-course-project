@@ -57,7 +57,7 @@ function AdminSidebar({ activeTab, setActiveTab, user, onLogout }) {
         </button>
         <button
           onClick={onLogout}
-          className="w-full flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-semibold text-blue-500 hover:bg-red-950/20 hover:text-blue-400 transition cursor-pointer"
+          className="w-full flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-semibold text-red-500 hover:bg-red-950/20 hover:text-red-400 transition cursor-pointer"
         >
           <LogOut size={14} />Выйти из аккаунта
         </button>
